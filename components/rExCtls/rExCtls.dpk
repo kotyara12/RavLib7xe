@@ -1,0 +1,51 @@
+package rExCtls;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS OFF}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE RELEASE}
+{$ENDIF IMPLICITBUILDING}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  VclSmp,
+  RtmRxCtl210;
+
+contains
+  rVclUtils,
+  rDialogs,
+  rIpTools,
+  rSortListView in 'rSortListView.pas',
+  rTreeView in 'rTreeView.pas',
+  rIdTreeView in 'rIdTreeView.pas',
+  rIPEdit in 'rIPEdit.pas',
+  rFloatEdit in 'rFloatEdit.pas',
+  rClrStrings in 'rClrStrings.pas',
+  rClrCombo in 'rClrCombo.pas',
+  rGrids in 'rGrids.pas',
+  rSpin64 in 'rSpin64.pas',
+  rExCtlsReg in 'rExCtlsReg.pas';
+
+end.

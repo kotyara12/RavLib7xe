@@ -1,0 +1,9 @@
+TrColorCombo BITMAP ".\Images\TrColorCombo.bmp"
+TrFloatEdit BITMAP ".\Images\TrFloatEdit.bmp"
+TrIdTreeView BITMAP ".\Images\TrIdTreeView.bmp"
+TrIPAddrEdit BITMAP ".\Images\TrIPAddrEdit.bmp"
+TrKindIdTreeView BITMAP ".\Images\TrKindIdTreeView.bmp"
+TrSortListView BITMAP ".\Images\TrSortListView.bmp"
+TrTreeView BITMAP ".\Images\TrTreeView.bmp"
+TSpinEdit64 BITMAP ".\Images\TSpinEdit64.bmp"
+
